@@ -130,6 +130,7 @@ const About = () => {
                     <IoIosCheckmarkCircleOutline />
                   </span>{" "}
                   Adaptability
+                  {/* done */}
                 </p>{" "}
               </div>
               <div>

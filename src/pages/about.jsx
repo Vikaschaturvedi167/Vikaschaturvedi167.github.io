@@ -5,7 +5,7 @@ import vikasImg from "./Images/avatar.jpg";
 import Button from "../components/button/button";
 import { useBreakpointValue } from "@chakra-ui/react";
 import { IoIosCheckmarkCircleOutline } from "react-icons/io";
-import pdf from "./Images/Arjun-Dangi-Resume.pdf"
+import pdf from "./Images/vikas_resume_vikas.pdf"
 
 const About = () => {
   

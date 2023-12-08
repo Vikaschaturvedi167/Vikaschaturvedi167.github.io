@@ -1,6 +1,6 @@
 // import "../styles/navbar.css";
 import style from "../styles/navbar.module.css";
-import pdf from "../pages/Images/Arjun-Dangi-Resume.pdf";
+import pdf from "../pages/Images/vikas_resume_vikas.pdf";
 export default function Navbar() {
   return (
     //--

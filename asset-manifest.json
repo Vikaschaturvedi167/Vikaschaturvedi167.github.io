@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.a4a3b43c.css",
-    "main.js": "/static/js/main.542dae5d.js",
+    "main.js": "/static/js/main.f28bd084.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/auto1.png": "/static/media/auto1.19ff617ccb9c7113348a.png",
     "static/media/myntra.png": "/static/media/myntra.17b86a034de4f514b625.png",
     "static/media/carver2.png": "/static/media/carver2.0f1a615445ab251577d2.png",
     "static/media/wine1.png": "/static/media/wine1.976c5fd510e8b2654f25.png",
+    "static/media/vikas_resume_vikas.pdf": "/static/media/vikas_resume_vikas.d58cf163fa05d2ee864a.pdf",
     "static/media/avatar.jpg": "/static/media/avatar.5853bdfd2a2f119ba628.jpg",
     "static/media/auto2.png": "/static/media/auto2.2f5e3f889bfb2569d4c6.png",
     "static/media/myntra small.png": "/static/media/myntra small.5d2e3d4ecfa8f078b78b.png",
     "static/media/carver1.png": "/static/media/carver1.7d5fcfb9d05572e8fc60.png",
-    "static/media/Arjun-Dangi-Resume.pdf": "/static/media/Arjun-Dangi-Resume.37c814a4eb591d2d5650.pdf",
     "static/media/portfolio.png": "/static/media/portfolio.346fadb16812865ec065.png",
     "static/media/wine2.png": "/static/media/wine2.227f827b25e0f6dc8699.png",
     "static/media/insta.png": "/static/media/insta.43008e0e27b235db7abc.png",
@@ -32,11 +32,11 @@
     "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/index.html",
     "main.a4a3b43c.css.map": "/static/css/main.a4a3b43c.css.map",
-    "main.542dae5d.js.map": "/static/js/main.542dae5d.js.map",
+    "main.f28bd084.js.map": "/static/js/main.f28bd084.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a4a3b43c.css",
-    "static/js/main.542dae5d.js"
+    "static/js/main.f28bd084.js"
   ]
 }

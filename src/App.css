@@ -492,6 +492,7 @@ ham i{
 /* About Section */
 .sections{
   padding: 50px 0;
+  margin-top: 250px;
 }
 .heading{
   text-align: center;

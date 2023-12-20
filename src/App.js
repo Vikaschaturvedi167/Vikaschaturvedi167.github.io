@@ -1,30 +1,52 @@
-import { useState } from 'react';
-import Navbar from './components/navbar';
-import logo from './logo.svg';
-import About from './pages/about';
-import Contact from './pages/contact';
-import Github from './pages/github';
-import Home from './pages/home';
-import Projects from './pages/projects';
-import Skills from './pages/skills';
-import { useSelector } from 'react-redux';
-import style from "./app.module.css"
-import Tools from './pages/tools';
+import { useEffect, useState } from "react";
+import "./App.css";
+import Intro from "./components/Intro";
+import About from "./components/About";
+import Aos from "aos";
+import "aos/dist/aos.css";
+import Navbar from "./components/Navbar";
+import Projects from "./components/Project";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
+import { Skills } from "./components/Skills";
+import { Github } from "./components/Github";
+import React, { useCallback } from 'react';
+import Particles from "react-particles";
+import { loadFull } from "tsparticles";
+import particlesOptions from "./particles.json";
+
 function App() {
-  const [isH1Visible, setIsH1Visible] = useState(true);
- 
+  let [boolean, setBoolean] = useState(true);
+  function handleClick() {
+    setBoolean(!boolean);
+  }
+
+  const particlesInit = useCallback(main => {
+    loadFull(main);
+}, [])
   
+  useEffect(() => {
+    Aos.init();
+    Aos.refresh();
+  }, []);
+
   return (
-    < >
-      <Navbar />
-      <Home isH1Fixed={isH1Visible} setIsH1Fixed={setIsH1Visible} />
-      <About />
-      <Skills />
-      <Tools/>
-      <Projects />
-      <Github />
-      <Contact/>
-    </>
+    <div className="App">
+      <Navbar handleClick={handleClick} boolean={boolean} />
+      <Intro handleClick={handleClick} boolean={boolean} />
+      <div className="contain give-padding" onClick={() => {
+        if (boolean === false) handleClick();
+      }}>
+        <About />
+        <Skills />
+        {/* <Work /> */}
+        <Projects />
+        <Github />
+        <Contact />
+      </div>
+      <Footer />
+      <Particles options={particlesOptions} init={particlesInit}/>
+    </div>
   );
 }
 

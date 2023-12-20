@@ -24,13 +24,13 @@ export default function About() {
       <div>
         <div data-aos="fade-up" className=" first">
           <p id="user-detail-intro">
-          Welcome to my coding realm, where I transform coffee into lines of code! <div><p style={{ display: 'inline-block' }} className="sauce">Me,vikas</p>
+          Welcome to my coding realm, where I transform coffee into lines of code! <p style={{ display: 'inline-block' }} className="sauce">Me,vikas</p>
           ,a proficient full stack web developer. My expertise spans across HTML5, CSS3, JavaScript, ReactJs, NodeJs, Express, and I'm well-versed in working with database 
           technologies like MongoDB. My true passion lies in crafting websites that not only boast impressive aesthetics but also elicit 
           exclamations of delight from users. I strive for excellence and pay meticulous attention to detail, enabling me to conquer even 
           the most intricate coding challenges. When I'm not engrossed in coding, I love immersing myself in the latest tech trends and 
           exploring new possibilities in the digital world..
-          </div>
+          
             <br />
           </p>
           <br />

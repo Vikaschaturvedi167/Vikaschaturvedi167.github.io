@@ -280,6 +280,7 @@ ham i{
 
 /* Profile Pic */
 .home-img-cont{
+  /* margin-top: 400px; */
   margin-right: -5rem;
   margin-left: 15rem;
 }
@@ -357,9 +358,9 @@ ham i{
 }
 
 .bio{
-  font-size: clamp(30px, 5vw, 70px);
+  font-size: clamp(30px, 3vw, 70px);
   font-weight: 500;
-  line-height: clamp(40px, 7vw, 80px);
+  line-height: clamp(40px, 5vw, 80px);
   margin: 10px 0;
   color: rgb(220, 234, 246);
 }
@@ -452,7 +453,7 @@ ham i{
 .contact-button:hover{
   background: rgb(255, 107, 107,.1);
 }
-@media screen and (min-width:700px){
+@media screen and (min-width:982px){
 
   .info{
     font-size: 20px;
@@ -461,7 +462,44 @@ ham i{
     padding: 20px 150px;
   }
 
-  
+  /* #home{
+    margin-right: 145px;
+  } */
+
+}
+@media only screen and (min-width: 700px) and (max-width: 982px) {
+  .info{
+    font-size: 20px;
+  }
+  .give-padding{
+    padding: 25px 200px;
+  }
+
+  #home{
+    margin-right: 145px;
+    margin-left: 15px;
+  }
+  .home-img-cont{
+    margin-right: -100px;
+  }
+  .newname {
+    font-weight: 400px;
+    font-size: 40px;
+  }
+  .bio{
+    font-size: clamp(30px, 3vw, 50px);
+    font-weight: 300px;
+    line-height: clamp(20px, 5vw, 60px);
+  }
+  .intro give-padding contain{
+  margin-left: -200px;
+  }
+  #about{
+    margin-top: 33rem;
+  }
+  #github-stat{
+    flex-direction: column;
+  }
 
 }
 
@@ -472,12 +510,12 @@ ham i{
   }
 
   .home-img-cont{
-    margin-top: 15rem;
+    margin-top: 28rem;
     margin-left: -5rem;
   }
 
   #about{
-    margin-top: 13rem;
+    margin-top: 23rem;
   }
 
   #github-stat{
@@ -492,7 +530,7 @@ ham i{
 /* About Section */
 .sections{
   padding: 50px 0;
-  margin-top: 250px;
+  margin-top: 300px;
 }
 .heading{
   text-align: center;

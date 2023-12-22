@@ -33,7 +33,7 @@ export default function About() {
           onClick={handleDownload}
           rel="noreferrer"
           href={resumePDF}
-          download={"VikasChaturvedi_Resume.pdf"} // Adjust the filename for download
+          download={"Vikas-Chaturvedi-Resume.pdf"} // Adjust the filename for download
           id="resume-button-2"
           className="contact-button resume-button second-btn"
         >
